@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+:focus {
+  outline: 0;
+}
+img {
+  -webkit-tap-highlight-color: transparent;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 400;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+::selection {
+  color: white;
+  background: #3B3639;
+}
+::-moz-selection {
+  color: white;
+  background: #3B3639;
+}
+html {
+  background-color: rgb(241, 248, 254);
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgba(0,0,0,.84);
+}
+main {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+#drop-input {
+  width: 100vh;
+  height: 100vh;
+  border: none;
+  background: none;
+  opacity: 0;
+}
+#title-container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 70px;
+}
+h1 {
+  width: auto;
+  color: rgba(0,0,0,.84);
+  font-size: 42px;
+  font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+}
+h2 {
+  width: 100%;
+  color: rgba(0,0,0,.84);
+  margin-top: 40px;
+  margin-bottom: 28px;
+  font-size: 28px;
+  font-weight: 500;
+}
+.paragraph {
+  font-size: 1em;
+  margin-bottom: 30px;
+  line-height: 1.5em;
+}
+#footer-copyright {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer-copyright-link {
+  color: rgba(0,0,0,.84);
+  font-weight: 400;
+}
+@media only screen and (max-width: 800px) {
+  main {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  #icon-container {
+    margin-bottom: 40px;
+    margin-top: 50px;
+  }
+  #title-container {
+    margin-top: 60px;
+  }
+  .paragraph {
+    font-size: 1.3em;
+  }
+  h2 {
+    margin-top: 50px;
+  }
+  #footer-copyright {
+    font-size: 1em;
+  }
+}
